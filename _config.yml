@@ -115,9 +115,9 @@ analytics:
 author:
   name             : "L-Storm"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am a person."
   location         : "Somewhere"
-  email            : "lostorm1(at)sheffield.ac.uk"
+  email            : "lostorm1@sheffield.ac.uk"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

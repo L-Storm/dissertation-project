@@ -7,13 +7,13 @@ The above video was released in a [2016 paper](https://arxiv.org/abs/1707.06347)
   <source src="{{ '/assets/videos/episode_010.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-In this first video, the agent acts initially randomly as determined by the randomly initialized weights in the policy.
+In this first video, the agent acts initially randomly as determined by the randomly initialized weights in the policy. The video is shorter than the others, as an early termination condition is produced (theta 1 rotates too far). 
 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_044-swing.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-After 44 attempts at learning control, the agent learned how to swing.
+After 44 attempts at learning control, the agent learned how to swing. 
 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_071-windmill.mp4' | relative_url }}" type="video/mp4">
@@ -31,9 +31,10 @@ The controller then learns that balancing at the top of the swing might be a goo
   <source src="{{ '/assets/videos/episode_172-balence.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-Finally, in this video and the next, we have a controller that can balance the pendulum in a specific position. It's been able to extract all this controlling behavior from its reward function.
+Finally, in this video at 172 and the next (at episode 240), we have a controller that can balance the pendulum in a specific position. It's been able to extract all this controlling behavior from its reward function. Further improvement wasn't observed after this. 
 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_170-fin.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+

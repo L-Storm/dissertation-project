@@ -2,7 +2,7 @@
 <iframe width="420" height="315" src="https://cdn.openai.com/openai-baselines-ppo/knocked-over-stand-up.mp4" frameborder="0" allowfullscreen></iframe>
 
 The above video was released in a [2016 paper](https://arxiv.org/abs/1707.06347) by OpenAI. It shows how a PPO agent has been used to learn the behaviors of a humanoid robot. To establish control like this using RL was groundbreaking. The examples below show how I was able to establish control of a rotary inverted pendulum using a similar PPO agent (not so groundbreaking but still quite cool).
-## Pendulum results
+## Pendulum Training
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_010.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
@@ -37,7 +37,7 @@ Finally, in this video at 172 and the next (at episode 240), we have a controlle
   <source src="{{ '/assets/videos/episode_170-fin.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+##Pendulum Results
 After control was established to evaluate the robustness of the controller, noise was added to the position and velocity signals of theta 1 and theta 2. Results from this are shown in the videos below. 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/completed-with-noise.mp4' | relative_url }}" type="video/mp4">

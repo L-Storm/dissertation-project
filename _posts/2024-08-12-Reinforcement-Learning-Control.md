@@ -38,3 +38,16 @@ Finally, in this video at 172 and the next (at episode 240), we have a controlle
   Your browser does not support the video tag.
 </video>
 
+After control was established to evaluate the robustness of the controller, noise was added to the position and velocity signals of theta 1 and theta 2. Results from this are shown in the videos below. 
+<video width="420" height="315" controls>
+  <source src="{{ '/assets/videos/episode_170-fin.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+The first video is showing the controller that was initialised vertically.
+<video width="420" height="315" controls>
+  <source src="{{ '/assets/videos/episode_170-fin.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Then to see if the swing up control of the system was still able to work ok, the second simulation was run with the pendulum initalised facing downwards. 
+
+

@@ -13,25 +13,25 @@ In this first video, the agent acts initially randomly as determined by the rand
   <source src="{{ '/assets/videos/episode_044-swing.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-After 44 attempts at learning control, the agent learned how to swing. 
+After several hundered attempts at learning control, the agent learned how to swing. 
 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_071-windmill.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-After swinging comes the stage I like to call "windmilling" at about 70 episodes.
+After swinging comes the stage I like to call "windmilling" at about 7000 episodes.
 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_107-balence-attempt.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-The controller then learns that balancing at the top of the swing might be a good idea, at 107 episodes.
+The controller then learns that balancing at the top of the swing might be a good idea.
 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_172-balence.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-Finally, in this video at 172 and the next (at episode 240), we have a controller that can balance the pendulum in a specific position. It's been able to extract all this controlling behavior from its reward function. Further improvement wasn't observed after this. 
+Finally, in this video, we have a controller that can balance the pendulum in a specific position. It's been able to extract all this controlling behavior from its reward function. Further improvement wasn't observed after this. 
 
 <video width="420" height="315" controls>
   <source src="{{ '/assets/videos/episode_170-fin.mp4' | relative_url }}" type="video/mp4">
